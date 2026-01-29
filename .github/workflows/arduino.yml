@@ -24,4 +24,4 @@ jobs:
 
       - name: Compile ESP32 sketch
         run: |
-          arduino-cli compile --fqbn esp32:esp32:esp32 .
+          arduino-cli compile --fqbn esp32:esp32:esp32 sketch
